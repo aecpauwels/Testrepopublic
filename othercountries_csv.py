@@ -3,9 +3,7 @@ import os
 import random
 
 COUNTRIES = [
-    "Russia", "Russia5", "Japan", "Canada", "India", "Germany",
-    "Australia", "Mexico", "Egypt", "Norway", "Thailand", "Argentina",
-    "Nigeria", "France", "Vietnam", "Chile", "Poland", "Morocco", "Peru",
+    "Poland", "Morocco", "Peru",
     "Turkey", "Indonesia", "Ghana", "Portugal", "New Zealand",
 ]
 
@@ -39,7 +37,7 @@ def random_row(country):
 
 
 def main():
-    rows = [random_row(country) for country in random.sample(COUNTRIES, 10)]
+    rows = [random_row(country) for country in random.sample(COUNTRIES, 2)]
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
