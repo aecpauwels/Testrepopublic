@@ -3,7 +3,7 @@ import os
 import random
 
 COUNTRIES = [
-    "Finland", "Brazil", "Japan", "Canada", "India", "Germany",
+    "Russia", "Russia5", "Japan", "Canada", "India", "Germany",
     "Australia", "Mexico", "Egypt", "Norway", "Thailand", "Argentina",
     "Nigeria", "France", "Vietnam", "Chile", "Poland", "Morocco", "Peru",
     "Turkey", "Indonesia", "Ghana", "Portugal", "New Zealand",
